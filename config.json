@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "./images/TB-logo.jpg",
+    "link": "www.telecom-bretagne.eu",
+    "text": "Vinh Loc DAO"
+  },
+  "text": {
+    "more": "This graph contains the links of a word association graph obtained from the South Florida Free Association norms list \navailable at http://www.usf.edu/FreeAssociation/ .          \nIn this graph, each word is represented by a node and cooccurence between two arbitrary words reprensents by an edges between associated nodes.\nThe node size illustrates the word ranking base on PageRank algorithm.\nThe node color identifies words into a group of their neighbours base on their cooccurrences using Louvain algorithm.",
+    "intro": "Click on a node to show its ego network (words that connect with it)\n\n",
+    "title": "Word Association map"
+  },
+  "legend": {
+    "edgeLabel": "Cooccurrence",
+    "colorLabel": "Word group",
+    "nodeLabel": "Word"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

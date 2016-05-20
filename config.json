@@ -3,7 +3,7 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "./images/TB-logo.jpg",
+    "file": "./images/TB_logo.jpg",
     "link": "www.telecom-bretagne.eu",
     "text": "Vinh Loc DAO"
   },
